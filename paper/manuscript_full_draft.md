@@ -180,45 +180,31 @@ This paper presented an empirical test of re-identification risk in community-sc
 
 ---
 
-## References (Draft — Verification Status Marked)
+## References  
+1. **Harrison, K., Rutherford, J.R., & White, G.B. (2015).** The Honey Community: Use of Combined Organizational Data for Community Protection. *2015 48th Hawaii International Conference on System Sciences (HICSS)*, pp. 2288–2297. DOI: 10.1109/HICSS.2015.274.  
 
-1. **Harrison, K., Rutherford, J.R., & White, G.B. (2015).** The Honey Community: Use of Combined Organizational Data for Community Protection. *2015 48th Hawaii International Conference on System Sciences (HICSS)*, pp. 2288–2297. DOI: 10.1109/HICSS.2015.274. ✅ **Fully verified** — page numbers and DOI cross-confirmed across two independent sources.
+2. **Feito Casares, E., Gómez-Talal, I., & Rojo-Álvarez, J.L. (2025).** Multi-regional Honeynet Dataset: A Distributed T-Pot Honeypot Deployment Across Azure Regions for Cyber Threat Analysis. *arXiv:2601.05813.* 
+3. **Sokol, P., Mísek, J., & Husák, M. (2017).** Honeypots and honeynets: issues of privacy. *EURASIP Journal on Information Security*, 2017, pp. 1-9. DOI: 10.1186/s13635-017-0057-4.  
+4. **Valeros, V., & García, S. (2022).** Hornet 40: Network dataset of geographically placed honeypots. *Data in Brief*, 40, 107795.  
+5. **Valeros, V., & García, S. (2025).** CTU Hornet 65 Niner: A network dataset of geographically distributed low-interaction honeypots. *Data in Brief*, 58, 111261.  
+6. **Sedraoui, B.K., Benmachiche, A., Makhlouf, A., & Chemam, C. (2026).** Exploring the Integration of Differential Privacy in Cybersecurity Analytics: Balancing Data Utility and Privacy in Threat Intelligence. *arXiv:2601.00385.*  
 
-2. **Feito Casares, E., Gómez-Talal, I., & Rojo-Álvarez, J.L. (2025).** Multi-regional Honeynet Dataset: A Distributed T-Pot Honeypot Deployment Across Azure Regions for Cyber Threat Analysis. *arXiv:2601.05813.* ✅ **Fully verified** — full author list confirmed directly from the paper's own reference list.
+7. **Wang, Z., Khatibi, E., Firouzi, F., Mousavi, S.R., Chakrabarty, K., & Rahmani, A.M. (2025).** Linkage Attacks Expose Identity Risks in Public ECG Data Sharing. *arXiv:2508.15850.*  
+8. **Manzanares-Salor, B., Sánchez, D., & Lison, P. (2024).** Evaluating the disclosure risk of anonymized documents via a machine learning-based re-identification attack. *Data Mining and Knowledge Discovery*, 38(6), 4040-4075. DOI: 10.1007/s10618-024-01066-3.  
 
-3. **Sokol, P., Mísek, J., & Husák, M. (2017).** Honeypots and honeynets: issues of privacy. *EURASIP Journal on Information Security*, 2017, pp. 1-9. DOI: 10.1186/s13635-017-0057-4. ✅ **Fully verified** — authors, journal, pages, and DOI confirmed across Springer Nature, Semantic Scholar, and ResearchGate.
+9. **Javadpour, A., Ja'fari, F., Taleb, T., Shojafar, M., & Benzaïd, C. (2024).** A comprehensive survey on cyber deception techniques to improve honeypot performance. *Computers & Security*, 140, Article 103792. DOI: 10.1016/j.cose.2024.103792.  
 
-4. **Valeros, V., & García, S. (2022).** Hornet 40: Network dataset of geographically placed honeypots. *Data in Brief*, 40, 107795. ✅ **Fully verified.**
+10. **Wang, Y., Su, Z., Benslimane, A., Xu, Q., Dai, M., & Li, R. (2024).** Collaborative honeypot defense in UAV networks: a learning-based game approach. *IEEE Transactions on Information Forensics and Security*, 19, 1963-1978.  
 
-5. **Valeros, V., & García, S. (2025).** CTU Hornet 65 Niner: A network dataset of geographically distributed low-interaction honeypots. *Data in Brief*, 58, 111261. ✅ **Fully verified.**
+11. **Kapoor, S., & Narayanan, A. (2023).** Leakage and the reproducibility crisis in machine-learning-based science. *Patterns*, 4(9), 100804. DOI: 10.1016/j.patter.2023.100804.  
 
-6. **Sedraoui, B.K., Benmachiche, A., Makhlouf, A., & Chemam, C. (2026).** Exploring the Integration of Differential Privacy in Cybersecurity Analytics: Balancing Data Utility and Privacy in Threat Intelligence. *arXiv:2601.00385.* ✅ **Fully verified.**
+12. **Sasse, L., Nicolaisen-Sobesky, E., Dukart, J., Eickhoff, S.B., Götz, M., Hamdan, S., Komeyer, V., Kulkarni, A., Lahnakoski, J., Love, B.C., Raimondo, F., & Patil, K.R. (2023).** On Leakage in Machine Learning Pipelines. *arXiv:2311.04179.*  
+13. **Albzour, N. (2026).** A Leakage-Aware Comparative Benchmark of Machine Learning, Deep Learning, and Transformer Models for Reliable Leukemia Detection. *arXiv:2606.24944.*  
+14. **Soltaniani, F., & Ghafari, M. (2026).** From Data Leak to Secret Misses: The Impact of Data Leakage on Secret Detection Models. *arXiv:2601.22946.*  
 
-7. **Wang, Z., Khatibi, E., Firouzi, F., Mousavi, S.R., Chakrabarty, K., & Rahmani, A.M. (2025).** Linkage Attacks Expose Identity Risks in Public ECG Data Sharing. *arXiv:2508.15850.* ✅ **Fully verified.**
+15. **Sweeney, L. (2002).** k-Anonymity: A Model for Protecting Privacy. *International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems*, 10(5), 557-570. DOI: 10.1142/S0218488502001648.  
+16. **Narayanan, A., & Shmatikov, V. (2008).** Robust De-anonymization of Large Sparse Datasets. *Proceedings of the 2008 IEEE Symposium on Security and Privacy (SP)*, 111-125. DOI: 10.1109/SP.2008.33.  
 
-8. **Manzanares-Salor, B., Sánchez, D., & Lison, P. (2024).** Evaluating the disclosure risk of anonymized documents via a machine learning-based re-identification attack. *Data Mining and Knowledge Discovery*, 38(6), 4040-4075. DOI: 10.1007/s10618-024-01066-3. ✅ **Fully verified** — this paper's classifier-based re-identification framing is especially close to this study's own approach.
-
-9. **Javadpour, A., Ja'fari, F., Taleb, T., Shojafar, M., & Benzaïd, C. (2024).** A comprehensive survey on cyber deception techniques to improve honeypot performance. *Computers & Security*, 140, Article 103792. DOI: 10.1016/j.cose.2024.103792. ✅ **Fully verified.**
-
-10. **Wang, Y., Su, Z., Benslimane, A., Xu, Q., Dai, M., & Li, R. (2024).** Collaborative honeypot defense in UAV networks: a learning-based game approach. *IEEE Transactions on Information Forensics and Security*, 19, 1963-1978. ✅ **Fully verified.**
-
-11. **Kapoor, S., & Narayanan, A. (2023).** Leakage and the reproducibility crisis in machine-learning-based science. *Patterns*, 4(9), 100804. DOI: 10.1016/j.patter.2023.100804. ✅ **Fully verified.**
-
-12. **Sasse, L., Nicolaisen-Sobesky, E., Dukart, J., Eickhoff, S.B., Götz, M., Hamdan, S., Komeyer, V., Kulkarni, A., Lahnakoski, J., Love, B.C., Raimondo, F., & Patil, K.R. (2023).** On Leakage in Machine Learning Pipelines. *arXiv:2311.04179.* ✅ **Fully verified.**
-
-13. **Albzour, N. (2026).** A Leakage-Aware Comparative Benchmark of Machine Learning, Deep Learning, and Transformer Models for Reliable Leukemia Detection. *arXiv:2606.24944.* ✅ **Fully verified** — near-identical study structure (naive vs. subject-disjoint splitting on identical models) to this paper's own design.
-
-14. **Soltaniani, F., & Ghafari, M. (2026).** From Data Leak to Secret Misses: The Impact of Data Leakage on Secret Detection Models. *arXiv:2601.22946.* ✅ **Fully verified** — directly analogous finding in a security-ML context.
-
-15. **Sweeney, L. (2002).** k-Anonymity: A Model for Protecting Privacy. *International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems*, 10(5), 557-570. DOI: 10.1142/S0218488502001648. ✅ **Fully verified** — foundational anonymization-model paper.
-
-16. **Narayanan, A., & Shmatikov, V. (2008).** Robust De-anonymization of Large Sparse Datasets. *Proceedings of the 2008 IEEE Symposium on Security and Privacy (SP)*, 111-125. DOI: 10.1109/SP.2008.33. ✅ **Fully verified** — foundational empirical demonstration that anonymization alone is often insufficient against an adversary with auxiliary knowledge.
-
-17. **Breiman, L. (2001).** Random Forests. *Machine Learning*, 45(1), 5-32. DOI: 10.1023/A:1010933404324. ✅ **Fully verified** — original Random Forest paper.
-
-18. **Friedman, J.H. (2001).** Greedy Function Approximation: A Gradient Boosting Machine. *The Annals of Statistics*, 29(5), 1189-1232. DOI: 10.1214/aos/1013203451. ✅ **Fully verified** — original Gradient Boosting paper.
-
-19. **Efron, B. (1979).** Bootstrap Methods: Another Look at the Jackknife. *The Annals of Statistics*, 7(1), 1-26. DOI: 10.1214/aos/1176344552. ✅ **Fully verified** — original bootstrap resampling paper, underlying this study's confidence intervals.
-
----
-**[OVERALL DRAFT NOTE — updated: reference list now has 19 cleanly-numbered entries (fixed a cosmetic issue where two pairs of citations were sharing one number each — every entry now gets its own number; in-text citations use author-year format throughout so this was cosmetic, not a factual error, but worth having clean regardless). All 19 references fully verified with complete bibliographic details, zero placeholders. Full read-through confirms Results, Discussion, and Conclusion remain internally consistent with each other and with Methodology — no stale numbers or contradictions found on this pass. All four figures embedded. Author block updated to Abhinandan Gavali, Manasi Gavali (co-author) and Irfan Alam (supervisor); the affiliations for the latter two are unverified placeholders, and the author list and order should be confirmed by all three authors. Genuinely remaining: (1) supervisor review and sign-off from Irfan Alam; (2) SpringerOpen template conversion; (3) hyperparameter tuning and a third model architecture remain undisclosed as reasonable future-work scope, not oversights.]**
+17. **Breiman, L. (2001).** Random Forests. *Machine Learning*, 45(1), 5-32. DOI: 10.1023/A:1010933404324.  
+18. **Friedman, J.H. (2001).** Greedy Function Approximation: A Gradient Boosting Machine. *The Annals of Statistics*, 29(5), 1189-1232. DOI: 10.1214/aos/1013203451.  
+19. **Efron, B. (1979).** Bootstrap Methods: Another Look at the Jackknife. *The Annals of Statistics*, 7(1), 1-26. DOI: 10.1214/aos/1176344552. 
