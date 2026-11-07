@@ -1,7 +1,6 @@
 # Research Roadmap: Privacy Leakage in Multi-Organization Honeypot Threat Intelligence Sharing
 
-**Target completion:** December 2026
-**Target venues:** Preprint (arXiv cs.CR + TechRxiv) → *Cybersecurity* (SpringerOpen, Scopus-indexed) or similar
+ 
 **Core question:** Does anonymized honeypot-generated threat intelligence still leak identifying information about the deployment site/organization when shared in a community threat-sharing model (CIAS Honey-Community style)?
 
 > ### ⚠️ IMPORTANT NOTE — ALL DATA MUST BE REAL, NOT SIMULATED
@@ -23,8 +22,7 @@
 
 ---
 
-## Phase 0: Foundation (Week 1 — early August)
-
+## Phase 0: Foundation  
 **Goal:** Lock the scope so nothing shifts mid-project.
 
 - [ ] Write a 1-page research proposal: research question, hypothesis, novelty claim, success metrics — get your supervisor's (Irfan Alam's) sign-off before building anything
@@ -49,8 +47,7 @@
 
 ---
 
-## Phase 1: Real Multi-Site Honeypot Data Acquisition (Weeks 2–3, early-mid August)
-
+## Phase 1: Real Multi-Site Honeypot Data Acquisition  
 **Goal:** Acquire real, ground-truth-labeled honeypot data from genuinely distinct deployment sites — no simulation, no synthetic fingerprints.
 
 ### The core dataset: MURHCAD (Multi-Regional Cloud Honeynet Dataset)
@@ -75,8 +72,7 @@ These four regions are one research group's deployment across four locations —
 
 ---
 
-## Phase 2: Anonymization / Threat-Intelligence Sharing Layer (Weeks 3–4, mid-late August)
-
+## Phase 2: Anonymization / Threat-Intelligence Sharing Layer 
 **Goal:** Build the "safe to share" version of the data — the version a real CIAS-style community would actually exchange.
 
 ### Technical steps:
@@ -94,7 +90,7 @@ These four regions are one research group's deployment across four locations —
 
 ---
 
-## Phase 3: Re-Identification / Leakage Attack — Core Contribution (Weeks 5–8, September)
+## Phase 3: Re-Identification / Leakage Attack — Core Contribution 
 
 **Goal:** Prove (or disprove) that residual signal in the "anonymized" data still identifies the source deployment site (`dstHostname`). This is the heart of the paper's novelty, and every number here comes from the real MURHCAD data, not a simulation.
 
@@ -124,7 +120,7 @@ These four regions are one research group's deployment across four locations —
 
 ---
 
-## Phase 4: Naive-vs-Grouped Evaluation Gap — Quantifying Overstatement (Weeks 9–11, October)
+## Phase 4: Naive-vs-Grouped Evaluation Gap — Quantifying Overstatement  
 
 **Goal:** REFRAMED per Phase 3's finding. Instead of testing whether privacy mitigations reduce an already-thin leakage signal, quantify exactly how much a naive (non-attacker-grouped) evaluation overstates re-identification risk compared to the rigorous GroupKFold evaluation — this is now the paper's core empirical contribution.
 
@@ -143,7 +139,7 @@ These four regions are one research group's deployment across four locations —
 
 ---
 
-## Phase 5: Writing (Weeks 12–16, November–early December)
+## Phase 5: Writing  
 
 **Goal:** Convert results into a submission-ready manuscript. Start this in parallel with Phase 3–4, don't wait until results are done.
 
@@ -168,42 +164,7 @@ These four regions are one research group's deployment across four locations —
 
 ---
 
-## Phase 6: Submission (Early-mid December)
-
-- [ ] Format for target journal (*Cybersecurity*, SpringerOpen) per their author guidelines
-- [ ] Submit preprint simultaneously to arXiv (cs.CR) and TechRxiv — get your DOI for PhD application purposes
+## Phase 6: Submission  
 - [ ] Submit manuscript to target journal
-- [ ] Update CV/SOP with accurate "Under Review" status + preprint DOI (not conflated with acceptance)
 
----
-
-## Parallel Track: PhD Application Integration (ongoing throughout)
-
-This isn't separate from the paper — weave it in as you go:
-
-| Milestone | When | Action |
-|---|---|---|
-| Phase 1–2 data pipeline working | Late Aug | Draft outreach email to UTSA faculty (AI Trustworthiness Lab, CIAS) mentioning this in-progress work specifically |
-| Phase 3 core result obtained | Late Sep | This is your strongest talking point for outreach — a real, quantified finding, not just "I'm working on something" |
-| Draft related-work + intro done | Oct | Share as a short abstract/summary with any responsive faculty contact |
-| Preprint live | Early Dec | Add DOI to CV/SOP, use as concrete proof-of-research for applications |
-
----
-
-## Realistic Risk Points (flagging now, not after)
-
-- **Phase 1's main risk is data access, not design** — confirm the MURHCAD repository is actually downloadable before you plan the rest of the timeline around it; have the second-source option (Hornet 40/65 Niner) as a fallback if access issues come up
-- **72 hours is a short collection window** — be upfront in Limitations that findings may not capture longer-term behavioral drift; this is a real constraint of using this specific dataset, not something to gloss over
-- **Phase 3's result is not guaranteed** — if re-identification accuracy comes back close to random baseline, that's still a publishable (if less exciting) negative result, but it changes your Phase 4/5 framing. Don't assume the headline finding before you have it.
-- **December is a hard deadline** — Phase 5 writing should start in parallel with Phase 3–4, not after. Budget writing time now, not as an afterthought.
-
----
-
-## Tools/Libraries Summary
-
-- **Core:** Python 3.x, pandas, numpy
-- **ML:** scikit-learn (Random Forest, Gradient Boosting), PyTorch (optional neural net comparison)
-- **Stats:** scipy (bootstrap confidence intervals)
-- **Visualization:** matplotlib/seaborn (tradeoff curves, confusion matrices)
-- **Existing assets to reuse:** your Random Forest baseline code and evaluation methodology from the prior GAN+RL paper (directly reusable for Phase 3); MURHCAD's own preprocessing notebook as your Phase 1 starting point
-- **New dependency:** direct download access to the MURHCAD dataset repository — confirm this first, before the rest of the timeline is built around it
+ 
