@@ -6,9 +6,7 @@
 ³[Affiliation to be confirmed]  
 Corresponding author ORCID: 0009-0007-9411-3311
 
-*[Author list as currently drafted: Abhinandan Gavali (main author), Manasi Gavali (co-author), Irfan Alam (supervisor, listed last). The affiliations for Manasi Gavali and Irfan Alam are unverified placeholders and must be filled in. Author order, the corresponding-author designation and an author-contributions statement need to be confirmed by all three authors before submission.]*
-
----
+ 
 
 ## Abstract
 
